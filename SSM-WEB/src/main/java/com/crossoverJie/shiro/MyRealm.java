@@ -21,7 +21,7 @@ import java.util.Set;
  */
 public class MyRealm extends AuthorizingRealm {
 
-    @Resource
+    @Resource(name = "t_userService")
     private UserService userService;
 
     /**
